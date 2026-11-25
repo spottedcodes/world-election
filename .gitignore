@@ -37,6 +37,7 @@ yarn-error.log*
 *.swp
 *.swo
 Thumbs.db
+._*
 
 # turbo
 .turbo/

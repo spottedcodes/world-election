@@ -133,10 +133,10 @@ export function FranceTurnoutChart({
         </div>
       </div>
 
-      <div className="mt-3 overflow-x-auto">
+      <div className="mt-3">
         <svg
           viewBox={`0 0 ${W} ${H}`}
-          className="w-full min-w-[460px]"
+          className="h-auto w-full"
           role="img"
           aria-label="Line chart of French presidential and legislative voter turnout from 1995 to 2024"
         >

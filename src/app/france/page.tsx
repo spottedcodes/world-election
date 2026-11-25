@@ -75,7 +75,7 @@ export default function FranceHubPage() {
       />
 
       {/* Top Country Hero + Next Election + Quick Facts */}
-      <section className="telemetry-grid relative border-b border-border/80">
+      <section className="telemetry-grid relative overflow-hidden border-b border-border/80">
         <div
           aria-hidden="true"
           className="pointer-events-none absolute -top-36 left-1/2 h-[380px] w-[720px] -translate-x-1/2 rounded-full blur-3xl"
@@ -108,7 +108,7 @@ export default function FranceHubPage() {
 
           <div className="grid items-start gap-8 lg:grid-cols-12">
             {/* Left: Country intro + Next election card */}
-            <div className="space-y-6 lg:col-span-7">
+            <div className="min-w-0 space-y-6 lg:col-span-7">
               <div className="space-y-3">
                 <div className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/90 px-3.5 py-1 text-xs font-medium text-brand">
                   <span>{frontmatter.heroEyebrow}</span>
@@ -127,7 +127,7 @@ export default function FranceHubPage() {
             {/* Right: Quick Facts Box */}
             <aside
               aria-label="France Electoral Quick Facts"
-              className="rounded-2xl border border-border bg-surface p-5 shadow-lg shadow-black/10 lg:col-span-5 sm:p-6"
+              className="min-w-0 rounded-2xl border border-border bg-surface p-5 shadow-lg shadow-black/10 lg:col-span-5 sm:p-6"
             >
               <div className="flex items-center justify-between border-b border-border/80 pb-3.5">
                 <div className="flex items-center gap-2">
@@ -227,7 +227,7 @@ export default function FranceHubPage() {
 
           <div className="grid gap-6 lg:grid-cols-2">
             {/* National Assembly */}
-            <div className="space-y-4">
+            <div className="min-w-0 space-y-4">
               <ParliamentHemicycle
                 chamberName={data.nationalAssembly.chamberName}
                 totalSeats={data.nationalAssembly.totalSeats}
@@ -274,7 +274,7 @@ export default function FranceHubPage() {
             </div>
 
             {/* Senate */}
-            <div className="space-y-4">
+            <div className="min-w-0 space-y-4">
               <ParliamentHemicycle
                 chamberName={data.senate.chamberName}
                 totalSeats={data.senate.totalSeats}
@@ -291,13 +291,13 @@ export default function FranceHubPage() {
         {/* Section 7 & 8: Polling Snapshot + Turnout Trends */}
         <section id="trends" className="scroll-mt-24 space-y-5">
           <div className="grid gap-6 xl:grid-cols-12">
-            <div className="xl:col-span-5">
+            <div className="min-w-0 xl:col-span-5">
               <FrancePollingSnapshot
                 polling={data.pollingSnapshot}
                 previewHref={data.nextElection.previewHref}
               />
             </div>
-            <div className="xl:col-span-7">
+            <div className="min-w-0 xl:col-span-7">
               <FranceTurnoutChart trends={data.turnoutTrends} />
             </div>
           </div>
@@ -505,7 +505,7 @@ export default function FranceHubPage() {
         {/* Section 12 & 13: Electoral System Explainer + FAQ */}
         <section id="explainer" className="scroll-mt-24 border-t border-border/80 pt-14">
           <div className="grid gap-8 lg:grid-cols-12">
-            <div className="rounded-2xl border border-border bg-surface p-6 lg:col-span-6">
+            <div className="min-w-0 rounded-2xl border border-border bg-surface p-6 lg:col-span-6">
               <div className="text-xs font-semibold tracking-wider text-brand uppercase">
                 How France Votes
               </div>
@@ -514,7 +514,7 @@ export default function FranceHubPage() {
               </div>
             </div>
 
-            <div className="space-y-4 lg:col-span-6">
+            <div className="min-w-0 space-y-4 lg:col-span-6">
               <div className="space-y-1">
                 <div className="text-xs font-semibold tracking-wider text-brand uppercase">
                   Frequently Asked Questions

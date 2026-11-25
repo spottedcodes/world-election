@@ -91,7 +91,7 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
           <div className="grid items-start gap-10 lg:grid-cols-12 lg:gap-10">
             {/* Left narrative column */}
-            <div className="space-y-6 lg:col-span-6 lg:pt-2">
+            <div className="min-w-0 space-y-6 lg:col-span-6 lg:pt-2">
               <div className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/90 px-3.5 py-1.5 text-xs font-medium text-text">
                 <span
                   aria-hidden="true"
@@ -154,7 +154,7 @@ export default function HomePage() {
             </div>
 
             {/* Right spotlight interactive preview */}
-            <div className="lg:col-span-6">
+            <div className="min-w-0 lg:col-span-6">
               <FranceSpotlightCard data={francePreview} />
             </div>
           </div>
@@ -211,12 +211,12 @@ export default function HomePage() {
 
           <div className="mt-8 grid gap-6 lg:grid-cols-12">
             {/* Markdown-rendered editorial guide */}
-            <div className="rounded-2xl border border-border bg-surface p-6 lg:col-span-7">
+            <div className="min-w-0 rounded-2xl border border-border bg-surface p-5 sm:p-6 lg:col-span-7">
               <MarkdownRenderer blocks={overview.blocks} />
             </div>
 
             {/* Chart Palette + Phased Route Map */}
-            <div className="space-y-6 lg:col-span-5">
+            <div className="min-w-0 space-y-6 lg:col-span-5">
               <div className="rounded-2xl border border-border bg-surface p-6">
                 <h3 className="font-display text-lg font-bold text-text">
                   Non-Partisan Chart Scale (--d1 to --d8)
@@ -299,7 +299,7 @@ export default function HomePage() {
         {/* FAQ Section */}
         <section id="faq" className="scroll-mt-24 border-t border-border/80 py-14 sm:py-16">
           <div className="grid gap-8 lg:grid-cols-12">
-            <div className="space-y-2 lg:col-span-4">
+            <div className="min-w-0 space-y-2 lg:col-span-4">
               <div className="text-xs font-semibold tracking-wider text-brand uppercase">
                 Frequently Asked Questions
               </div>
@@ -314,7 +314,7 @@ export default function HomePage() {
                 .
               </p>
             </div>
-            <div className="lg:col-span-8">
+            <div className="min-w-0 lg:col-span-8">
               <FaqAccordion faqs={overview.frontmatter.faqs} />
             </div>
           </div>

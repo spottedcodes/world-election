@@ -7,7 +7,7 @@ export function SiteFooter({ config }: { config: SiteConfig }) {
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="grid gap-10 md:grid-cols-12">
           {/* Brand summary */}
-          <div className="space-y-4 md:col-span-5">
+          <div className="min-w-0 space-y-4 md:col-span-5">
             <div className="flex items-center gap-2.5">
               <span className="font-display text-xl font-bold tracking-tight text-text">
                 {config.brand.name}
@@ -31,7 +31,7 @@ export function SiteFooter({ config }: { config: SiteConfig }) {
           </div>
 
           {/* Planned route rollout */}
-          <div className="space-y-3 md:col-span-4">
+          <div className="min-w-0 space-y-3 md:col-span-4">
             <h2 className="font-display text-sm font-semibold tracking-wide text-text uppercase">
               Planned Route Rollout
             </h2>
@@ -71,7 +71,7 @@ export function SiteFooter({ config }: { config: SiteConfig }) {
           </div>
 
           {/* Legal & standards links */}
-          <div className="space-y-3 md:col-span-3">
+          <div className="min-w-0 space-y-3 md:col-span-3">
             <h2 className="font-display text-sm font-semibold tracking-wide text-text uppercase">
               Legal &amp; Standards
             </h2>

@@ -119,7 +119,7 @@ export function FranceDepartmentMap({
 
       <div className="mt-5 grid items-start gap-6 lg:grid-cols-12">
         {/* Map + Insets column */}
-        <div className="space-y-4 lg:col-span-7">
+        <div className="min-w-0 space-y-4 lg:col-span-7">
           <div className="relative rounded-2xl border border-border/80 bg-bg/70 p-3">
             <svg
               viewBox={geo.viewBox}
@@ -262,7 +262,7 @@ export function FranceDepartmentMap({
         </div>
 
         {/* Selected department breakdown panel */}
-        <div className="rounded-2xl border border-border bg-bg/75 p-5 lg:col-span-5">
+        <div className="min-w-0 rounded-2xl border border-border bg-bg/75 p-5 lg:col-span-5">
           {selectedEntry ? (
             <>
               <div className="flex items-start justify-between gap-3 border-b border-border/80 pb-3.5">
