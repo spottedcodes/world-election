@@ -25,10 +25,21 @@
 *.pem
 
 # debug
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+
+# editors & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# turbo
+.turbo/
 
 # env files (can opt-in for committing if needed)
 .env*

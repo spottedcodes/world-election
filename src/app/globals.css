@@ -1,26 +1,157 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #12112a;
+  --surface: #1b1a3a;
+  --surface-2: #24234c;
+  --border: #34326b;
+  --text: #edebff;
+  --text-muted: #b2aee0;
+  --brand: #8b7cff;
+  --brand-hover: #a295ff;
+  --brand-contrast: #12112a;
+  --live: #ffb547;
+  --live-text: #ffb547;
+  --live-bg: rgba(255, 181, 71, 0.14);
+  --live-border: rgba(255, 181, 71, 0.42);
+  --grid-line: rgba(139, 124, 255, 0.08);
+  --glow: rgba(139, 124, 255, 0.16);
+
+  /* Colorblind-friendly non-partisan chart tokens (--d1 to --d8) */
+  --d1: #9d91ff; /* violet */
+  --d2: #2dd4bf; /* teal */
+  --d3: #ffb547; /* amber */
+  --d4: #ff7b72; /* coral */
+  --d5: #56ccf2; /* sky */
+  --d6: #f472b6; /* pink */
+  --d7: #a3e635; /* lime */
+  --d8: #94a3b8; /* slate */
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f5ff;
+  --surface: #ffffff;
+  --surface-2: #eceaff;
+  --border: #d9d7f3;
+  --text: #1a1838;
+  --text-muted: #524e78;
+  --brand: #5a46e6;
+  --brand-hover: #4733d1;
+  --brand-contrast: #ffffff;
+  --live: #c26a00;
+  --live-text: #8f4d00;
+  --live-bg: rgba(194, 106, 0, 0.1);
+  --live-border: rgba(194, 106, 0, 0.36);
+  --grid-line: rgba(90, 70, 230, 0.06);
+  --glow: rgba(90, 70, 230, 0.1);
+
+  /* Light-calibrated colorblind-friendly chart tokens (--d1 to --d8) */
+  --d1: #5a46e6; /* violet */
+  --d2: #0f766e; /* teal */
+  --d3: #b45309; /* amber */
+  --d4: #c2410c; /* coral */
+  --d5: #0369a1; /* sky */
+  --d6: #be185d; /* pink */
+  --d7: #446f0b; /* lime */
+  --d8: #475569; /* slate */
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-contrast: var(--brand-contrast);
+  --color-live: var(--live);
+  --color-live-text: var(--live-text);
+  --color-live-bg: var(--live-bg);
+  --color-live-border: var(--live-border);
+
+  --color-d1: var(--d1);
+  --color-d2: var(--d2);
+  --color-d3: var(--d3);
+  --color-d4: var(--d4);
+  --color-d5: var(--d5);
+  --color-d6: var(--d6);
+  --color-d7: var(--d7);
+  --color-d8: var(--d8);
+
+  --font-display: var(--font-bricolage), system-ui, sans-serif;
+  --font-sans: var(--font-instrument), system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-instrument), system-ui, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04";
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-bricolage), system-ui, sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+.telemetry-grid {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes pulse-signal {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.86);
+  }
+}
+
+.animate-live-dot {
+  animation: pulse-signal 1.8s ease-in-out infinite;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.theme-when-dark {
+  display: inline-flex;
+}
+
+.theme-when-light {
+  display: none;
+}
+
+:root[data-theme="light"] .theme-when-dark {
+  display: none;
+}
+
+:root[data-theme="light"] .theme-when-light {
+  display: inline-flex;
 }

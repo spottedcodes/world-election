@@ -1,0 +1,439 @@
+{
+  "country": "France",
+  "countryCode": "FR",
+  "officialName": "French Republic (Fifth Republic)",
+  "timezone": "Europe/Paris",
+  "lastUpdated": "26 November 2026",
+  "nextElection": {
+    "id": "france-presidential-2027",
+    "title": "2027 French Presidential Election",
+    "type": "Presidential",
+    "round1Iso": "2027-04-18T06:00:00Z",
+    "round1Label": "Sunday, 18 April 2027",
+    "round2Iso": "2027-05-02T06:00:00Z",
+    "round2Label": "Sunday, 2 May 2027",
+    "pollCloseLabel": "18:00 UTC (20:00 CEST)",
+    "system": "Two-round absolute majority",
+    "plannedHref": "/france/2027-presidential-election",
+    "previewHref": "/#france-2027"
+  },
+  "quickFacts": [
+    { "label": "Head of State", "value": "Emmanuel Macron (President)", "note": "Term ends May 2027; two-term limit reached" },
+    { "label": "Head of Government", "value": "Sébastien Lecornu (Prime Minister)", "note": "Second Lecornu government" },
+    { "label": "Parliament", "value": "Bicameral (577 + 348 seats)", "note": "National Assembly & indirectly elected Senate" },
+    { "label": "Voting Age", "value": "18 years", "note": "Universal suffrage for registered citizens" },
+    { "label": "Presidential System", "value": "Two-round majority (5-year term)", "note": "500 sponsor signatures (parrainages) required" },
+    { "label": "Legislative System", "value": "Two-round single-member (577 seats)", "note": "12.5% of registered voters threshold for Round 2" }
+  ],
+  "upcomingElections": [
+    {
+      "id": "pres-2027",
+      "title": "Presidential Election",
+      "body": "Presidency of the Republic",
+      "dateLabel": "18 April & 2 May 2027",
+      "status": "confirmed",
+      "notes": "Two rounds; absolute majority required. Official candidate filings conclude in March 2027."
+    },
+    {
+      "id": "local-2028",
+      "title": "Departmental & Regional Elections",
+      "body": "Regional & Departmental Councils",
+      "dateLabel": "March 2028",
+      "status": "scheduled",
+      "notes": "Scheduled 6-year renewal cycle following the June 2021 ballots."
+    },
+    {
+      "id": "leg-2029",
+      "title": "National Assembly (18th Legislature)",
+      "body": "577 Deputies",
+      "dateLabel": "By Summer 2029 — No date confirmed",
+      "status": "unconfirmed",
+      "notes": "Regular five-year term runs to 2029, but dates can move if the President dissolves parliament early."
+    },
+    {
+      "id": "senate-2029",
+      "title": "Senate Renewal (Series 1)",
+      "body": "Indirect half-chamber renewal",
+      "dateLabel": "Expected September 2029 — No date confirmed",
+      "status": "unconfirmed",
+      "notes": "Roughly half of the 348 seats renew every three years; decree issued prior to voting."
+    },
+    {
+      "id": "eu-2029",
+      "title": "European Parliament (France)",
+      "body": "81 French MEPs",
+      "dateLabel": "Expected June 2029 — No date confirmed",
+      "status": "unconfirmed",
+      "notes": "National proportional list with a 5% threshold; exact window set at EU level."
+    }
+  ],
+  "presidentialHistory": [
+    {
+      "year": 2022,
+      "winner": "Emmanuel Macron",
+      "winnerParty": "LREM",
+      "opponent": "Marine Le Pen",
+      "opponentParty": "RN",
+      "winnerR1": 27.85,
+      "opponentR1": 23.15,
+      "winnerR2": 58.55,
+      "opponentR2": 41.45,
+      "turnoutR1": 73.69,
+      "turnoutR2": 71.99,
+      "plannedRoute": "/france/2022-presidential-election"
+    },
+    {
+      "year": 2017,
+      "winner": "Emmanuel Macron",
+      "winnerParty": "EM",
+      "opponent": "Marine Le Pen",
+      "opponentParty": "FN",
+      "winnerR1": 24.0,
+      "opponentR1": 21.3,
+      "winnerR2": 66.1,
+      "opponentR2": 33.9,
+      "turnoutR1": 77.8,
+      "turnoutR2": 74.6,
+      "plannedRoute": "/france/2017-presidential-election"
+    },
+    {
+      "year": 2012,
+      "winner": "François Hollande",
+      "winnerParty": "PS",
+      "opponent": "Nicolas Sarkozy",
+      "opponentParty": "UMP",
+      "winnerR1": 28.6,
+      "opponentR1": 27.2,
+      "winnerR2": 51.6,
+      "opponentR2": 48.4,
+      "turnoutR1": 79.5,
+      "turnoutR2": 80.4,
+      "plannedRoute": "/france/2012-presidential-election"
+    },
+    {
+      "year": 2007,
+      "winner": "Nicolas Sarkozy",
+      "winnerParty": "UMP",
+      "opponent": "Ségolène Royal",
+      "opponentParty": "PS",
+      "winnerR1": 31.2,
+      "opponentR1": 25.9,
+      "winnerR2": 53.1,
+      "opponentR2": 46.9,
+      "turnoutR1": 83.8,
+      "turnoutR2": 84.0,
+      "plannedRoute": "/france/2007-presidential-election"
+    },
+    {
+      "year": 2002,
+      "winner": "Jacques Chirac",
+      "winnerParty": "RPR",
+      "opponent": "Jean-Marie Le Pen",
+      "opponentParty": "FN",
+      "winnerR1": 19.9,
+      "opponentR1": 16.9,
+      "winnerR2": 82.2,
+      "opponentR2": 17.8,
+      "turnoutR1": 71.6,
+      "turnoutR2": 79.7,
+      "plannedRoute": "/france/2002-presidential-election"
+    },
+    {
+      "year": 1995,
+      "winner": "Jacques Chirac",
+      "winnerParty": "RPR",
+      "opponent": "Lionel Jospin",
+      "opponentParty": "PS",
+      "winnerR1": 20.8,
+      "opponentR1": 23.3,
+      "winnerR2": 52.6,
+      "opponentR2": 47.4,
+      "turnoutR1": 78.4,
+      "turnoutR2": 79.7,
+      "plannedRoute": "/france/1995-presidential-election"
+    },
+    {
+      "year": 1988,
+      "winner": "François Mitterrand",
+      "winnerParty": "PS",
+      "opponent": "Jacques Chirac",
+      "opponentParty": "RPR",
+      "winnerR1": 34.1,
+      "opponentR1": 20.0,
+      "winnerR2": 54.02,
+      "opponentR2": 45.98,
+      "turnoutR1": 81.38,
+      "turnoutR2": 84.06,
+      "plannedRoute": "/france/1988-presidential-election"
+    },
+    {
+      "year": 1981,
+      "winner": "François Mitterrand",
+      "winnerParty": "PS",
+      "opponent": "Valéry Giscard d'Estaing",
+      "opponentParty": "UDF",
+      "winnerR1": 25.9,
+      "opponentR1": 28.3,
+      "winnerR2": 51.8,
+      "opponentR2": 48.2,
+      "turnoutR1": 81.1,
+      "turnoutR2": 85.9,
+      "plannedRoute": "/france/1981-presidential-election"
+    },
+    {
+      "year": 1974,
+      "winner": "Valéry Giscard d'Estaing",
+      "winnerParty": "RI",
+      "opponent": "François Mitterrand",
+      "opponentParty": "PS",
+      "winnerR1": 32.6,
+      "opponentR1": 43.27,
+      "winnerR2": 50.81,
+      "opponentR2": 49.19,
+      "turnoutR1": 84.23,
+      "turnoutR2": 87.33,
+      "plannedRoute": "/france/1974-presidential-election"
+    },
+    {
+      "year": 1969,
+      "winner": "Georges Pompidou",
+      "winnerParty": "UDR",
+      "opponent": "Alain Poher",
+      "opponentParty": "CD",
+      "winnerR1": 44.5,
+      "opponentR1": 23.3,
+      "winnerR2": 58.21,
+      "opponentR2": 41.79,
+      "turnoutR1": 77.59,
+      "turnoutR2": 68.85,
+      "plannedRoute": "/france/1969-presidential-election"
+    },
+    {
+      "year": 1965,
+      "winner": "Charles de Gaulle",
+      "winnerParty": "UNR",
+      "opponent": "François Mitterrand",
+      "opponentParty": "CIR / Left",
+      "winnerR1": 44.6,
+      "opponentR1": 31.7,
+      "winnerR2": 55.2,
+      "opponentR2": 44.8,
+      "turnoutR1": 84.7,
+      "turnoutR2": 84.3,
+      "plannedRoute": "/france/1965-presidential-election"
+    }
+  ],
+  "nationalAssembly": {
+    "chamberName": "Assemblée nationale (17th Legislature)",
+    "totalSeats": 577,
+    "majorityThreshold": 289,
+    "lastElectionDates": "30 June & 7 July 2024 (snap election)",
+    "lastElectionTurnout": "66.71% R1 / 66.63% R2",
+    "seatChangesNote": "Seat counts reflect current parliamentary groups rather than raw July 2024 election-night coalition tallies: Éric Ciotti's UDR formed a separate 17-seat group, several deputies sit as Non-inscrits, and partial vacancies/by-elections shift active group totals between elections.",
+    "july2024Blocs": [
+      { "bloc": "New Popular Front (NFP)", "approxSeats": "180–182", "color": "#ff7b72" },
+      { "bloc": "Ensemble (Presidential Majority)", "approxSeats": "159–163", "color": "#ffb547" },
+      { "bloc": "RN & UXD Allies", "approxSeats": "142–143", "color": "#56ccf2" },
+      { "bloc": "LR & Divers Droite", "approxSeats": "39–46", "color": "#8b7cff" },
+      { "bloc": "Regionalists / Misc.", "approxSeats": "27–57", "color": "#94a3b8" }
+    ],
+    "groups": [
+      { "code": "LFI", "name": "La France insoumise - NFP", "seats": 70, "bloc": "Left", "color": "#ef4444" },
+      { "code": "GDR", "name": "Gauche Démocrate et Républicaine", "seats": 17, "bloc": "Left", "color": "#dc2626" },
+      { "code": "EcoS", "name": "Écologiste et Social", "seats": 39, "bloc": "Left", "color": "#22c55e" },
+      { "code": "SOC", "name": "Socialistes et apparentés", "seats": 67, "bloc": "Left", "color": "#f472b6" },
+      { "code": "LIOT", "name": "Libertés, Indépendants, Outre-mer et Territoires", "seats": 24, "bloc": "Center / Regional", "color": "#2dd4bf" },
+      { "code": "Dem", "name": "Les Démocrates (MoDem)", "seats": 37, "bloc": "Center", "color": "#fb923c" },
+      { "code": "EPR", "name": "Ensemble pour la République", "seats": 90, "bloc": "Center", "color": "#ffb547" },
+      { "code": "HOR", "name": "Horizons & Indépendants", "seats": 35, "bloc": "Center-Right", "color": "#38bdf8" },
+      { "code": "DR", "name": "Droite Républicaine (LR)", "seats": 46, "bloc": "Right", "color": "#8b7cff" },
+      { "code": "UDR", "name": "Union des droites pour la République", "seats": 17, "bloc": "Right / Far-Right", "color": "#60a5fa" },
+      { "code": "RN", "name": "Rassemblement National", "seats": 121, "bloc": "Far-Right", "color": "#3b82f6" },
+      { "code": "NI", "name": "Non-inscrits", "seats": 11, "bloc": "Unattached", "color": "#94a3b8" },
+      { "code": "VAC", "name": "Vacant seats", "seats": 3, "bloc": "Vacant", "color": "#475569" }
+    ]
+  },
+  "senate": {
+    "chamberName": "Sénat (2026–2029 Triennium)",
+    "totalSeats": 348,
+    "majorityThreshold": 175,
+    "lastRenewalDate": "27 September 2026 (Series 2)",
+    "seatsRenewed": 178,
+    "electoralCollegeNote": "Indirectly elected by ~172,000 grands électeurs (mostly municipal councillors, mayors, and regional/departmental officials); roughly half the chamber renews every three years.",
+    "renewalHighlight": "Center-right (REP + UCI) retained firm control after the 27 September 2026 Series 2 renewal, while Rassemblement National and allies reached 15 seats to form UNT, their first official Senate group.",
+    "groups": [
+      { "code": "CRCE", "name": "Communiste Républicain Citoyen et Écologiste - Kanaky", "seats": 18, "bloc": "Left", "color": "#dc2626" },
+      { "code": "GEST", "name": "Écologiste - Solidarité et Territoires", "seats": 15, "bloc": "Left", "color": "#22c55e" },
+      { "code": "SER", "name": "Socialiste, Écologiste et Républicain", "seats": 62, "bloc": "Left", "color": "#f472b6" },
+      { "code": "RDSE", "name": "Rassemblement Démocratique et Social Européen", "seats": 18, "bloc": "Center-Left / Radical", "color": "#2dd4bf" },
+      { "code": "RDPI", "name": "Rassemblement des démocrates, progressistes et indépendants", "seats": 16, "bloc": "Center", "color": "#ffb547" },
+      { "code": "UCI", "name": "Union Centriste et Indépendants", "seats": 63, "bloc": "Center-Right", "color": "#fb923c" },
+      { "code": "LIRT", "name": "Les Indépendants - République et Territoires", "seats": 14, "bloc": "Center-Right", "color": "#38bdf8" },
+      { "code": "REP", "name": "Les Républicains", "seats": 124, "bloc": "Right", "color": "#8b7cff" },
+      { "code": "UNT", "name": "Union Nationale pour les Territoires (RN / UDR)", "seats": 15, "bloc": "Far-Right", "color": "#3b82f6" },
+      { "code": "RASNAG", "name": "Non-inscrits (RASNAG)", "seats": 3, "bloc": "Unattached", "color": "#94a3b8" }
+    ]
+  },
+  "parties": [
+    {
+      "code": "RN",
+      "name": "Rassemblement National",
+      "ideology": "Nationalist / Far-right",
+      "color": "#3b82f6",
+      "assemblySeats": "121 seats",
+      "senateSeats": "15 seats (UNT)",
+      "recentResult": "31.37% (2024 EU) • 23.15% R1 / 41.45% R2 (2022 Pres.)"
+    },
+    {
+      "code": "RE",
+      "name": "Renaissance (Ensemble)",
+      "ideology": "Liberal / Centrist",
+      "color": "#ffb547",
+      "assemblySeats": "90 seats (EPR)",
+      "senateSeats": "16 seats (RDPI)",
+      "recentResult": "14.60% (2024 EU) • 27.85% R1 / 58.55% R2 (2022 Pres.)"
+    },
+    {
+      "code": "LFI",
+      "name": "La France Insoumise",
+      "ideology": "Left-wing populist / Democratic socialist",
+      "color": "#ef4444",
+      "assemblySeats": "70 seats (LFI-NFP)",
+      "senateSeats": "—",
+      "recentResult": "9.89% (2024 EU) • 21.95% R1 (2022 Pres.)"
+    },
+    {
+      "code": "PS",
+      "name": "Parti Socialiste",
+      "ideology": "Social democratic / Center-left",
+      "color": "#f472b6",
+      "assemblySeats": "67 seats (SOC)",
+      "senateSeats": "62 seats (SER)",
+      "recentResult": "13.83% w/ Place Publique (2024 EU) • 1.75% R1 (2022 Pres.)"
+    },
+    {
+      "code": "LR",
+      "name": "Les Républicains",
+      "ideology": "Conservative / Center-right",
+      "color": "#8b7cff",
+      "assemblySeats": "46 seats (DR)",
+      "senateSeats": "124 seats (REP)",
+      "recentResult": "7.25% (2024 EU) • 4.78% R1 (2022 Pres.)"
+    },
+    {
+      "code": "LE",
+      "name": "Les Écologistes (EELV)",
+      "ideology": "Green / Environmentalist",
+      "color": "#22c55e",
+      "assemblySeats": "39 seats (EcoS)",
+      "senateSeats": "15 seats (GEST)",
+      "recentResult": "5.50% (2024 EU) • 4.63% R1 (2022 Pres.)"
+    },
+    {
+      "code": "MoDem",
+      "name": "Mouvement Démocrate",
+      "ideology": "Centrist / Christian-democrat",
+      "color": "#fb923c",
+      "assemblySeats": "37 seats (Dem)",
+      "senateSeats": "Within UCI (63)",
+      "recentResult": "Part of Ensemble coalition (2024 EU & Legislative)"
+    },
+    {
+      "code": "HOR",
+      "name": "Horizons",
+      "ideology": "Center-right / Liberal conservative",
+      "color": "#38bdf8",
+      "assemblySeats": "35 seats (HOR)",
+      "senateSeats": "Within LIRT (14)",
+      "recentResult": "Part of Ensemble coalition (2024 Legislative)"
+    },
+    {
+      "code": "PCF",
+      "name": "Parti Communiste Français",
+      "ideology": "Left / Communist",
+      "color": "#dc2626",
+      "assemblySeats": "17 seats (GDR)",
+      "senateSeats": "18 seats (CRCE-K)",
+      "recentResult": "2.28% R1 (2022 Pres.) • NFP partner (2024 Leg.)"
+    }
+  ],
+  "pollingSnapshot": {
+    "statusLabel": "Pre-Nomination Scenario Bands • Oct–Nov 2026",
+    "sourcesSummary": "Aggregated ranges across October–November 2026 Ifop and Elabe first-round surveys ahead of March 2027 official Constitutional Council candidate certifications (500 parrainages).",
+    "caveat": "Multiple center-right and left-wing figures are tested across different hypothetical lineups; exact candidate slates remain provisional until spring 2027.",
+    "contenders": [
+      { "name": "Marine Le Pen", "party": "RN", "minPct": 31.0, "maxPct": 35.0, "color": "#56ccf2" },
+      { "name": "Jean-Luc Mélenchon", "party": "LFI", "minPct": 17.0, "maxPct": 19.5, "color": "#ff7b72" },
+      { "name": "Édouard Philippe", "party": "Horizons", "minPct": 10.0, "maxPct": 15.0, "color": "#38bdf8" },
+      { "name": "David Lisnard", "party": "Nouvelle Énergie / Right", "minPct": 10.0, "maxPct": 12.0, "color": "#8b7cff" },
+      { "name": "Gabriel Attal", "party": "Renaissance", "minPct": 9.5, "maxPct": 11.0, "color": "#ffb547" },
+      { "name": "Raphaël Glucksmann", "party": "Place Publique", "minPct": 8.0, "maxPct": 11.5, "color": "#f472b6" },
+      { "name": "Bruno Retailleau", "party": "Les Républicains", "minPct": 4.0, "maxPct": 5.5, "color": "#9d91ff" },
+      { "name": "Éric Zemmour", "party": "Reconquête", "minPct": 2.5, "maxPct": 3.5, "color": "#94a3b8" }
+    ]
+  },
+  "turnoutTrends": {
+    "presidential": [
+      { "year": 1995, "r1": 78.4, "r2": 79.7 },
+      { "year": 2002, "r1": 71.6, "r2": 79.7 },
+      { "year": 2007, "r1": 83.8, "r2": 84.0 },
+      { "year": 2012, "r1": 79.5, "r2": 80.4 },
+      { "year": 2017, "r1": 77.8, "r2": 74.6 },
+      { "year": 2022, "r1": 73.69, "r2": 71.99 }
+    ],
+    "legislative": [
+      { "year": 1997, "r1": 67.92, "r2": 70.97 },
+      { "year": 2002, "r1": 64.42, "r2": 60.31 },
+      { "year": 2007, "r1": 60.42, "r2": 59.98 },
+      { "year": 2012, "r1": 57.22, "r2": 55.40 },
+      { "year": 2017, "r1": 48.70, "r2": 42.64 },
+      { "year": 2022, "r1": 47.51, "r2": 46.23 },
+      { "year": 2024, "r1": 66.71, "r2": 66.63 }
+    ]
+  },
+  "otherElectionTypes": [
+    {
+      "id": "european",
+      "title": "European Parliament",
+      "lastHeld": "9 June 2024",
+      "turnout": "51.85%",
+      "seats": "81 French MEPs",
+      "nextCycle": "Expected June 2029",
+      "summary": "Single national proportional list with a 5% threshold. Top 2024 lists: RN 31.37% (30 seats), Ensemble 14.60% (13), PS-Place Publique 13.83% (13), LFI 9.89% (9)."
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Elections",
+      "lastHeld": "15 & 22 March 2026",
+      "turnout": "57.10% R1 / 57.03% R2",
+      "seats": "~35,000 communes",
+      "nextCycle": "Expected 2032",
+      "summary": "Elects municipal councils and mayors across France—and forms the vast majority of the grands électeurs college that elects the Senate."
+    },
+    {
+      "id": "regional-departmental",
+      "title": "Regional & Departmental Elections",
+      "lastHeld": "20 & 27 June 2021",
+      "turnout": "~33.3%–34%",
+      "seats": "Regional & departmental councils",
+      "nextCycle": "March 2028",
+      "summary": "Six-year local mandate governing regional transit, high schools, and social services; historically marks lower turnout than national races."
+    },
+    {
+      "id": "referendums",
+      "title": "National Referendums",
+      "lastHeld": "29 May 2005",
+      "turnout": "69.37%",
+      "seats": "Direct yes/no ballot",
+      "nextCycle": "Discretionary (Article 11 / 89)",
+      "summary": "In the last national referendum (EU Constitutional Treaty, May 2005), French voters rejected ratification with 54.67% No to 45.33% Yes."
+    }
+  ],
+  "dataSources": [
+    { "name": "Ministère de l'Intérieur", "role": "Official election results & candidate lists", "url": "https://www.resultats-elections.interieur.gouv.fr" },
+    { "name": "data.gouv.fr", "role": "Open presidential department CSV/XLS archives", "url": "https://www.data.gouv.fr" },
+    { "name": "Conseil constitutionnel", "role": "Presidential parrainages & official certification", "url": "https://www.conseil-constitutionnel.fr" },
+    { "name": "Assemblée nationale", "role": "17th Legislature group composition (577 seats)", "url": "https://www.assemblee-nationale.fr" },
+    { "name": "Sénat", "role": "2026–2029 political group composition (348 seats)", "url": "https://www.senat.fr" }
+  ]
+}

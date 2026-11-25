@@ -1,0 +1,90 @@
+{
+  "country": "France",
+  "countryCode": "FR",
+  "title": "2027 French Presidential Election",
+  "plannedPath": "/france/2027-presidential-election",
+  "countryHubPath": "/france",
+  "electoralSystem": "Two-round absolute majority",
+  "termLengthYears": 5,
+  "localTimezone": "Europe/Paris",
+  "round1Iso": "2027-04-18T06:00:00Z",
+  "round1Label": "Sunday, 18 April 2027",
+  "round2Iso": "2027-05-02T06:00:00Z",
+  "round2Label": "Sunday, 2 May 2027",
+  "pollCloseUtc": "18:00 UTC (20:00 CEST)",
+  "previewNotice": "Illustrative live-telemetry simulation demonstrating the --d1 to --d8 neutral palette and per-party color overrides prior to official 2027 nominations.",
+  "previewTracks": [
+    {
+      "id": "bloc-1",
+      "label": "List / Track 01",
+      "shortCode": "T1",
+      "tokenVar": "--d1",
+      "partyOverrideColor": "#6c63ff",
+      "baseShare": 26.4,
+      "baseVotes": 9240500
+    },
+    {
+      "id": "bloc-2",
+      "label": "List / Track 02",
+      "shortCode": "T2",
+      "tokenVar": "--d2",
+      "partyOverrideColor": "#14b8a6",
+      "baseShare": 23.8,
+      "baseVotes": 8330400
+    },
+    {
+      "id": "bloc-3",
+      "label": "List / Track 03",
+      "shortCode": "T3",
+      "tokenVar": "--d3",
+      "partyOverrideColor": "#f59e0b",
+      "baseShare": 18.6,
+      "baseVotes": 6510300
+    },
+    {
+      "id": "bloc-4",
+      "label": "List / Track 04",
+      "shortCode": "T4",
+      "tokenVar": "--d4",
+      "partyOverrideColor": "#ef4444",
+      "baseShare": 11.9,
+      "baseVotes": 4165200
+    },
+    {
+      "id": "bloc-5",
+      "label": "List / Track 05",
+      "shortCode": "T5",
+      "tokenVar": "--d5",
+      "partyOverrideColor": "#38bdf8",
+      "baseShare": 8.4,
+      "baseVotes": 2940100
+    },
+    {
+      "id": "bloc-6",
+      "label": "List / Track 06",
+      "shortCode": "T6",
+      "tokenVar": "--d6",
+      "partyOverrideColor": "#ec4899",
+      "baseShare": 5.3,
+      "baseVotes": 1855050
+    },
+    {
+      "id": "bloc-7",
+      "label": "List / Track 07",
+      "shortCode": "T7",
+      "tokenVar": "--d7",
+      "partyOverrideColor": "#84cc16",
+      "baseShare": 3.4,
+      "baseVotes": 1190020
+    },
+    {
+      "id": "bloc-8",
+      "label": "Others / Remaining",
+      "shortCode": "T8",
+      "tokenVar": "--d8",
+      "partyOverrideColor": "#94a3b8",
+      "baseShare": 2.2,
+      "baseVotes": 770010
+    }
+  ]
+}

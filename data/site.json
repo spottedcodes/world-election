@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "name": "WorldElection",
+    "shortName": "WE",
+    "tagline": "Independent Global Ballot & Electoral Data Tracker",
+    "description": "Tracking national elections worldwide with non-partisan visualization, live election-night telemetry, and verified historical archives.",
+    "contactEmail": "editorial@worldelection.example",
+    "baseUrl": "https://worldelection.example"
+  },
+  "navigation": [
+    { "label": "Overview", "href": "/" },
+    { "label": "France Hub", "href": "/france" },
+    { "label": "2027 Watchlist", "href": "/#watchlist" },
+    { "label": "Methodology", "href": "/#methodology" }
+  ],
+  "plannedRoutes": [
+    { "path": "/", "role": "Global Entry & Live Hub", "phase": "Live", "rendering": "SSG" },
+    { "path": "/2027-elections", "role": "Global 2027 Calendar", "phase": "Phase 1", "rendering": "SSG + ISR" },
+    { "path": "/france", "role": "Country Electoral Hub", "phase": "Live", "rendering": "SSG" },
+    { "path": "/france/2027-presidential-election", "role": "Flagship Live Race Page", "phase": "Phase 1", "rendering": "ISR + Live JSON" }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy" },
+    { "label": "Terms of Use", "href": "/terms" },
+    { "label": "Data & Neutrality Disclaimer", "href": "/disclaimer" }
+  ],
+  "chartTokens": [
+    { "token": "--d1", "name": "Violet" },
+    { "token": "--d2", "name": "Teal" },
+    { "token": "--d3", "name": "Amber" },
+    { "token": "--d4", "name": "Coral" },
+    { "token": "--d5", "name": "Sky" },
+    { "token": "--d6", "name": "Pink" },
+    { "token": "--d7", "name": "Lime" },
+    { "token": "--d8", "name": "Slate" }
+  ]
+}
